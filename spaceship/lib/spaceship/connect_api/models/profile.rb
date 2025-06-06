@@ -87,7 +87,7 @@ module Spaceship
       def self.create(client: nil, name: nil, profile_type: nil, bundle_id_id: nil, certificate_ids: nil, device_ids: nil, template_name: nil)
         client ||= Spaceship::ConnectAPI
 
-        attributes = {Add commentMore actions
+        attributes = {
           name: name,
           profileType: profile_type
         }
